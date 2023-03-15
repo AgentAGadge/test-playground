@@ -10,6 +10,6 @@ from tp_package.functions import add_one
 def test_add_one(input,expected):
   # Arrange
   # Act
-  res = add_one(input)
+  result = add_one(input)
   # Assert
-  assert(expected==res)
+  assert(expected==result)
