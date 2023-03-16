@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tp_package"
+version = "0.0.1"
+authors = [
+  { name="Mathieu Lamiot", email="mathieu.lamiot@free.fr" },
+]
+description = "Python package as playground to test Python and GitHub functionalities"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AgentAGadge/test-playground"
