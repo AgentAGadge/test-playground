@@ -1,0 +1,1 @@
+flake8 . --count --show-source --statistics --max-complexity=10 --max-line-length=127
